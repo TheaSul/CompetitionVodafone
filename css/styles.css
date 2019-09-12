@@ -1,6 +1,18 @@
+
+body.main {
+  background-color: Thistle;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.container{
+  text-align: center;
+}
+
+
 div.title {
   text-align: center;
-
 }
 
 @import "compass/css3";
@@ -62,7 +74,7 @@ footer {
       float: left;
       line-height: 70px;
       text-decoration: none;
-      color: white;
+      color: blue;
       text-align: center;
       font-weight: bold;
       @include transition(all, 0.3s);
@@ -101,4 +113,12 @@ footer {
 img.my-social {
   width: 25px;
   height: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+.w-50 {
+    margin: auto!important;
 }
