@@ -65,12 +65,12 @@ footer {
     }
   }
   .social {
-      width: 50%;
-      float: right;
+    width: 50%;
+    float: right;
     @media (max-width: 600px) {
       width: 100%;
     }
-     a {
+    a {
       float: left;
       line-height: 70px;
       text-decoration: none;
@@ -78,10 +78,10 @@ footer {
       text-align: center;
       font-weight: bold;
       @include transition(all, 0.3s);
-       &:hover {
-         background-color: #222;
-         @include transition(all, .3s);
-       }
+      &:hover {
+        background-color: #222;
+        @include transition(all, .3s);
+      }
     }
   }
 }
@@ -120,5 +120,5 @@ img.my-social {
 }
 
 .w-50 {
-    margin: auto!important;
+  margin: auto!important;
 }
